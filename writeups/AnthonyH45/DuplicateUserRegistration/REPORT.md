@@ -8,13 +8,13 @@ Make sure to keep spoilers out of the titles as much as you can.
 
 **Registering a user with a name that already exists prompts a message to `Report this issue to NGPEW`.**
 
-![reg_error](./images/user_reg_error.PNG)
-
-![reg_error](./images/user_reg_err_requests.PNG)
+![reg_error](https://raw.githubusercontent.com/AnthonyH45/cptc-badge-2021/main/writeups/AnthonyH45/DuplicateUserRegistration/images/user_reg_error.PNG)
 
 * Issue Steps to Reproduce in Long Form
 
-**Open a web browser and navigate to the IP of the NGPEW sensor server. Once there, click `Create New Account` and continue with making a user. Once complete, redo the steps taken with the same information and the server will print an error saying `Unable to Create User! Please report this issue to NGPEW!`.**
+**Open a web browser and navigate to the IP of the NGPEW sensor server. Once there, click `Create New Account` and continue with making a user. Once complete, redo the steps taken with the same information and the server will print an error saying `Unable to Create User! Please report this issue to NGPEW!`. This works with slight variations as well, such as adding a space. So `username == user name`**
+
+![reg_error_requests](https://raw.githubusercontent.com/AnthonyH45/cptc-badge-2021/main/writeups/AnthonyH45/DuplicateUserRegistration/images/user_reg_err_requests.PNG)
 
 * Issue Security Risks to the End User
 
@@ -28,8 +28,11 @@ Make sure to keep spoilers out of the titles as much as you can.
 
 **Anthony Hallak, https://anthony.hallak.net**
 
+**https://github.com/AnthonyH45/cptc-badge-2021/**
+
 * Any other Details
 
+**This was performed on the virtual image, not the hardware.**
 **Thanks to Forrest (@JRWR) for making these badges!**
 
 If you wish to include any files, please attach a PR into a subfolder of the writeups folder in this repo. Please use the format writeups/\<username>/\<issue title>
