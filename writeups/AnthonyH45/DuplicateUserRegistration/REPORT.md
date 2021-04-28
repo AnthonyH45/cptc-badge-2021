@@ -8,9 +8,9 @@ Make sure to keep spoilers out of the titles as much as you can.
 
 **Registering a user with a name that already exists prompts a message to `Report this issue to NGPEW`.**
 
-![reg_error](../images/user_reg_error.PNG)
+![reg_error](./images/user_reg_error.PNG)
 
-![reg_error](../images/user_reg_err_requests.PNG)
+![reg_error](./images/user_reg_err_requests.PNG)
 
 * Issue Steps to Reproduce in Long Form
 
@@ -22,7 +22,7 @@ Make sure to keep spoilers out of the titles as much as you can.
 
 * Issue Security Risks to NGPEW
 
-**This account spam cannot only prevent users, but possible the system itself considering the server only has 1GB of RAM, it could be maxed out quickly if a malicious user makes enough requests to DDoS the server. This prevents the graphs from being read and thus possible for a sensor to reach dangerous levels.**
+**This account spam cannot only prevent users, but possible the system itself considering the server only has 1GB of RAM, it could be maxed out quickly if a malicious user makes enough requests to DDoS the server. This prevents the graphs from being read and thus possible for a sensor to reach dangerous levels and NGPEW would not be able to know since the web interface is unresponsive.**
 
 * Credits, Usernames, Github Repo, Sources.
 
